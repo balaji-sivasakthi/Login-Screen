@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: linear-gradient(to right,green,rgba(21, 255, 0, 0.493)) no-repeat center fixed ;
+}
+
+input[type=text],[type=password],[type=button]{
+    font-size: 16px;
+   font-family: sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.container{
+    
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: auto;
+    background: #f2f2f2;
+}
+
+input[type=checkbox]{
+    margin-top: 10px;
+   width: 15px;
+   height: 15px;
+}
+.login-img img{
+   top: -80px;
+   right: 180px;
+   box-shadow: gray 0px 0px 10px 0px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;    
+}
+.mt-10{
+    margin-top: 10px;
+}
+.primary-btn{
+    color: blanchedalmond;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
+    border: none;
+}
+.primary-btn:hover{
+    background-color: yellowgreen;
+    border: none;
+}
+.facebook-color{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.facebook-color:hover{
+    background-color: rgba(0, 0, 255, 0.582);
+}
